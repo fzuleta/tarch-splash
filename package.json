@@ -1,0 +1,44 @@
+{
+  "name": "tarch-splash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "run-p watch:*",
+    "watch:webpack": "webpack --mode development --watch",
+    "watch:server": "http-server -p 8080 -c-1 ./bundle",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fzuleta@github.com/fzuleta/tarch-splash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzuleta/tarch-splash/issues"
+  },
+  "homepage": "https://github.com/fzuleta/tarch-splash#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.45",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "http-server": "^0.12.3",
+    "npm-run-all": "^4.1.5",
+    "source-map-loader": "^1.0.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

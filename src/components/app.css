@@ -1,0 +1,20 @@
+.app {
+    position: relative;
+    background-color: #242e33;
+    padding: 5px;
+}
+.tooltip {
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    pointer-events: none;
+    background-color: black;
+    color: white;
+    z-index: 5;
+}
+.tooltipVisible {
+    display: block;
+}

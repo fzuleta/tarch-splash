@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "bundle/js",
+        "sourceMap": true,
+        "strictNullChecks": false,
+        "strict": false,
+        "allowJs": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "target": "es5",
+        "noImplicitAny": false,
+        "lib": ["es5", "es2015", "es2016", "dom" ],
+        "baseUrl": "."
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

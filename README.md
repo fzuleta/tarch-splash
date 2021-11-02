@@ -1,2 +1,3 @@
-# tarch-splash
-Tarch splash
+# Tarch.co
+
+Splash website
